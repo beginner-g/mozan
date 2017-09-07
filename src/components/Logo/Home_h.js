@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class Home extends Component {
+class Home_h extends Component {
   render() {
     let {color,width,height} =this.props
     return (
@@ -8,4 +8,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Home_h;

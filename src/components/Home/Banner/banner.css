@@ -1,0 +1,16 @@
+.banner{
+  width: 1160px;
+  padding: 20px;
+  background-color: #fde133;
+}
+.dish-card img{
+  width: 328px;
+  margin: 20px 30px;
+
+}
+button{
+  margin:0 20px;
+}
+.slick-dots li>button{
+  margin-top: 10px;
+}

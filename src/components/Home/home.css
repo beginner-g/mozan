@@ -1,7 +1,20 @@
-.home{
+.home1{
   width: 100%;
 }
 .main{
   margin: 0 auto;
   width: 1200px;
+}
+.main_m{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #2b2e33;
+}
+.main_con{
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-bottom: 2px solid #4f4f4f;
+  padding-bottom: 21px;
+  display: flex;
 }
