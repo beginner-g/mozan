@@ -1,0 +1,53 @@
+.chooses{
+  width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.chooses>p{
+  margin: 21px 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.chooses>p span{
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.chooses>p a:nth-child(2){
+  margin-left: 12px;
+  padding: 7px 20px;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+}
+.choose>p a:nth-child(3){
+  margin-left: 12px;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+}
+.active{
+  background-image: url('../../../images/xuankuang.png');
+  background-repeat: no-repeat;
+}
+.payment{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 58px;
+  padding-bottom: 316px;
+  overflow: hidden;
+}
+.payment>a{
+  display: block;
+  width: 221px;
+  line-height: 60px;
+  color: #000;
+  background-color: #fdd900;
+  float: right;
+  font-size: 26px;
+  text-decoration: none;
+  text-align: center;
+}
