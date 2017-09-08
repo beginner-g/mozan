@@ -12,8 +12,9 @@ class Header extends Component{
           <a className='home' href="#"><Home_h color='#ccc' width='44px' height='25px'/></a>
           <a href="#"><img className='logo' src={logo} alt="" /></a>
           <a className='search' href="#"><Search color='#ccc' width='28px' height='36px'/></a>
-        <a className='shop' href="#"><Shop color='#ccc' width='28px' height='36px'/></a>
-          <a className='login' href="#">登录/注册</a>
+          <a className='shop' href="#"><Shop color='#ccc' width='28px' height='36px'/></a>
+          <a className='login' href="#">登录</a>
+        <a className='sign' href="#">/注册</a>
         </div>
       </div>
     )
