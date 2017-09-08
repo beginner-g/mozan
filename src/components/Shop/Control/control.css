@@ -1,0 +1,63 @@
+.control{
+    margin: 50px 50px 0 50px;
+    background-color: #2b2e33;
+    overflow: hidden;
+}
+.control ul{
+    padding:16px 0 16px 20px;
+    float:left;
+    margin: 0;
+}
+.control ul li{
+    font-size: 14px;
+    color:white;
+    float:left;
+    padding-right: 20px;
+    list-style: none;
+    line-height: 26px;
+}
+.control a{
+    color:white;
+}
+.control .remo{
+    background-image: url('../../../images/remo_03.jpg');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-left: 14px;
+}
+.control ul li:nth-child(2){
+    border-left: 2px solid #6f7277;
+    padding-left: 20px;
+}
+.control ul li:nth-child(2) span{
+    color:#fbdb00;
+}
+.control p{
+    padding:12px 10px 12px 0;
+    float:right;
+    margin: 0;
+    font-size: 12px;
+    color:white;
+    text-align: right;
+}
+.control p>p{
+    float:right;
+}
+.control>span{
+    padding-right: 20px;
+    font-size: 36px;
+    color:#fdd901;
+    display:block;
+    float:right;
+    line-height: 60px;
+}
+.control>a{
+    display:block;
+    float:right;
+    font-size: 26px;
+    color:black;
+    width: 220px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #fdd900;
+}

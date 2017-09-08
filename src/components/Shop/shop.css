@@ -1,0 +1,163 @@
+.shop-car{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 79px;
+    background-color: #fff;
+}
+.main_cn{
+    width: 1200px;
+    padding: 0 50px;
+    background-image: url('../../images/line3_03.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.nav{
+    padding:24px 0 64px 0;
+    width: 1100px;
+}
+.nav p{
+    border-left:5px solid black;
+    float:left;
+    height: 60px;
+    padding-left: 21px;
+    color:#4d525a;
+    font-size: 28px;
+    padding-top: 16px;
+    margin: 0;
+}
+.nav p>span{
+    font-size: 22px;
+}
+.nav p .sum{
+    color:#fe0004;
+}
+.nav ul{
+    float:right;
+    padding-top: 23px;
+    position:relative;
+    list-style: none;
+}
+.nav ul li{
+    float:left;
+    font-size: 18px;
+    color:#52545a;
+    border-bottom:2px solid black;
+    margin-left: 20px;
+}
+.nav ul li:first-child{
+    font-weight: 800;
+    border-bottom: 5px solid black;
+}
+.title{
+  width: 1100px;
+  margin-top: 100px;
+  border-bottom: 2px solid #4f545c;
+  line-height: 43px;
+}
+.title span:nth-child(3){
+  margin: 0 488px 0 30px;
+}
+.title span:nth-child(5){
+    margin-left: 152px;
+    margin-right: 142px;
+      }
+.title span:nth-child(6){
+    margin-right: 60px;
+      }
+.goods{
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid #d1d7e3;
+    position:relative;
+    overflow: hidden;
+    width: 1100px;
+}
+.goods>input,.goods>a, .goods>p{
+    float: left;
+}
+.goods>input{
+    margin: 35px 48px 0 0;
+}
+.goods img{
+    display: block;
+    margin-right: 10px;
+}
+.long a:hover{
+  color: yellow;
+}
+.goods>p{
+  width: 251px;
+}
+.goods>p>a{
+    width: 240px;
+    color:#474a4f;
+    font-size:14px;
+    margin-bottom: 18px;
+}
+.goods>p>a:hover{
+    color:#fdd900;
+}
+.goods>p>span{
+    display: block;
+    font-size: 14px;
+    color:#b6b7b7;
+}
+.goods .money{
+    float: left;
+    margin-top: 28px;
+    margin-left: 160px;
+}
+.goods .money a,.goods .money>span,.goods .money p{
+    float: left;
+    line-height: 36px;
+    color: #000;
+}
+a{
+  text-decoration: none;
+}
+.goods .money>span,.goods .money p{
+    font-size: 14px;
+}
+.goods .money .sub,.goods .money .add{
+    width: 36px;
+    font-size: 18px;
+    color:#000;
+    text-align: center;
+    border:1px solid #2d2e32;
+
+}
+.goods .money .sub{
+    margin-left: 65px;
+    margin-right: 48px;
+    margin-top: 10px;
+}
+.goods .money .add{
+    margin-left: 48px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+.goods .money>p:nth-child(5){
+    width: 30px;
+    margin-right: 72px;
+    color:#f20201;
+}
+.goods .money .qty{
+    width: 10px;
+    margin-top: 10px;
+}
+.goods .money a{
+  margin-top: 10px;
+}
+.word{
+ float: right;
+ margin-right: 30px;
+}
+.word>span{
+   font-size:18px;
+   color:#2c2d32;
+   line-height: 36px;
+   border-bottom: 2px solid #000;
+   margin-left: 20px;
+}
+.word>span:first-child{
+   border-bottom: 5px solid #000;
+}
