@@ -1,0 +1,140 @@
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 79px;
+    background-color: #fff;
+}
+.main_co{
+    padding: 24px 50px;
+    background-image: url('../../images/bg1_03.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_co>p{
+    height: 60px;
+    color:#292e32;
+    font-size: 26px;
+    padding-left: 22px;
+    border-left: 5px solid black;
+    margin: 0;
+}
+.comment{
+    width: 1200px;
+    margin-top: 87px;
+    padding:10px;
+    border-bottom: 2px solid #babec9;
+    border-top: 2px solid #babec9;
+    display: flex;
+    justify-content: space-between;
+}
+.comment p:nth-child(1){
+    color:#2d2e30;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.comment p:nth-child(1) img{
+    padding-right: 10px;
+}
+.comment p:nth-child(1) span:nth-child(2){
+    display:block;
+    padding-top: 26px;
+    line-height: 22px;
+    color:#2b2e33;
+    padding-right: 20px;
+}
+.comment p:nth-child(1) span:nth-child(3){
+    display:block;
+    margin-top: 10px;
+    padding:4px 0 4px 21px;
+    line-height: 20px;
+    color:#6f7277;
+    font-size: 12px;
+    border-left:2px solid #fdd900;
+
+}
+.comment p:nth-child(2){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.comment p:nth-child(2)>a{
+    display:block;
+    margin-top: 24px;
+    text-align:center;
+    font-size: 18px;
+    height: 34px;
+    padding-top: 12px;
+}
+.comment p:nth-child(2) .account{
+    color:#010002;
+    background-color: #fcd901;
+    width: 210px;
+}
+.comment p:nth-child(2) .return{
+    width: 132px;
+    background-color: #2b2e33;
+    margin-right: 10px;
+    color:#f6f6f6;
+}
+.tip{
+    padding-top: 78px;
+    padding-bottom: 10px;
+}
+.tip>span{
+    display:block;
+    float:left;
+}
+.tip>div{
+    float:left;
+    border:1px solid #fdd900;
+    margin-left: 9px;
+    margin-top: 11px;
+    width: 993px;
+}
+.shop{
+  display: flex;
+  justify-content: space-between;
+}
+.shop div{
+    padding-right:30px;
+}
+.shop div:last-child{
+    padding:0;
+}
+.shop img{
+    display:block;
+}
+.shop div p{
+    padding: 10px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    line-height: 20px;
+    border-top:0;
+    overflow: hidden;
+}
+.shop div p strong{
+    display:block;
+    margin-bottom: 40px;
+}
+.shop div p span{
+    display:block;
+    font-size: 20px;
+    color:#df2322;
+    float:left;
+
+}
+.shop div p span b{
+    font-weight: 500;
+}
+.shop div p a{
+    display:block;
+    float:right;
+    width: 66px;
+    font-size: 18px;
+    color:#ffd801;
+    border:2px solid #ffd801;
+    text-align:center;
+}
