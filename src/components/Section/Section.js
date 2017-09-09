@@ -4,6 +4,7 @@ import Join_cart from '../Join_cart/Join_cart'
 import Shop from '../Shop/Shop'
 import Cashier_desk from '../Cashier_desk/Cashier_desk'
 import Bomb_box from '../Bomb_box/Bomb_box'
+import Wechat_pay from '../Wechat_pay/Wechat_pay'
 class Section extends Component{
   render(){
     return(
@@ -12,7 +13,8 @@ class Section extends Component{
         {/* <Join_cart/> */}
         {/* <Shop/> */}
         {/* <Cashier_desk/> */}
-        <Bomb_box/>
+        {/* <Bomb_box/> */}
+        <Wechat_pay/>
       </div>
     )
   }

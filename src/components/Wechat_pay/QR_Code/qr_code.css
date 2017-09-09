@@ -1,0 +1,86 @@
+.chooses{
+  width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.chooses>p{
+  margin: 21px 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.chooses>p span{
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.chooses>p a:nth-child(2){
+  margin-left: 12px;
+  padding: 7px 20px;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+}
+.choose>p a:nth-child(3){
+  margin-left: 12px;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+}
+.active{
+  position: absolute;
+  z-index: 5;
+  left: 132px;
+  top: 1px;
+  display: none;
+}
+.active1{
+  position: absolute;
+  z-index: 5;
+  left: 276px;
+  top: 1px;
+  display: block;
+}
+.payment{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 316px;
+  overflow: hidden;
+}
+.payment p:nth-child(1){
+    font-size: 26px;
+    font-weight: 500;
+    float: left;
+}
+.payment p:nth-child(2){
+    float: left;
+    margin-left: 142px;
+}
+.payment p:nth-child(2) span:nth-child(1){
+    font-size: 14px;
+}
+.payment p:nth-child(2) span:nth-child(1) em{
+    color: red;
+}
+.payment p:nth-child(2) img{
+    display: block;
+    margin-top: 20px;
+}
+.payment p:nth-child(2) span:nth-child(3){
+    margin-top: 19px;
+    display: block;
+    width: 234px;
+    height: 48px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fdd900;
+    padding-top: 12px;
+    padding-bottom: -12px;
+}
+.payment p:nth-child(3){
+    float: right;
+    margin-right: 220px;
+}

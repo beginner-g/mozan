@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import './bomb_box.css'
-import Box from '../Box/Box'
-import Submit from './Submit/Submit'
-class Bomb_box extends Component{
+import './wechat_pay.css'
+import Wechat from './Wechat/Wechat'
+class Wechat_pay extends Component{
   render(){
     return(
-      <div className="bomb-box">
+      <div className="wechat-pay">
         <div className="m_up">
           <div className="up_con1">
             <p className="up_left">收银台</p>
@@ -16,10 +15,9 @@ class Bomb_box extends Component{
             </p>
           </div>
         </div>
-        <Submit/>
-        <Box/>
+        <Wechat/>
       </div>
     )
   }
 }
-export default Bomb_box
+export default Wechat_pay
