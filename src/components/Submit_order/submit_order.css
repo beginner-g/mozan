@@ -1,0 +1,47 @@
+.submit-order{
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+}
+.m_up{
+  background-image: url('../../images/line3_03.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.up_con1{
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.up_left{
+  float: left;
+  border-left: 5px solid #000;
+  font-size: 30px;
+  padding-left: 20px;
+  line-height: 60px;
+  color: #000;
+  margin-top: 24px;
+  margin-bottom: 80px;
+}
+.up_right{
+  float: right;
+  overflow: hidden;
+}
+.up_right>span{
+  float: left;
+  font-size: 20px;
+  color: #000;
+  margin-right: 20px;
+  margin-top: 46px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+.up_right>span:nth-child(2){
+  font-weight: 600;
+}
+.up_right>span:nth-child(3){
+  font-weight: 600;
+  border-bottom: 3px solid #000;
+}
