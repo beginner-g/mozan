@@ -1,0 +1,67 @@
+.way{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1100px;
+  margin: 0 auto;
+  border-bottom: 2px solid #b8beca;
+  overflow: hidden;
+}
+.way h3{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 46px;
+  padding-right: 21px;
+  float: left;
+  display: block;
+  margin: 0;
+}
+.way1,.logistics,.bill{
+  float: left;
+  margin-right: 28px;
+  overflow: hidden;
+}
+.way1>img,.logistics>img{
+  float: left;
+  display: block;
+}
+.bill a:nth-child(3){
+  border:0;
+  background-image: url('../../../images/332_03.png');
+  background-repeat: no-repeat;
+
+}
+.bill{
+  margin: 0;
+}
+.bill a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 46px;
+  width: 103px;
+  font-size: 16px;
+  color: #000;
+  border: 3px solid #babec9;
+  float: left;
+  margin-right: 10px;
+}
+.conserve{
+  float: right;
+}
+.conserve input{
+  float: left;
+  width: 163px;
+  height: 46px;
+}
+.conserve>a{
+  display: block;
+  text-decoration: none;
+  background-color: #fdd900;
+  margin-left: 4px;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+  width: 46px;
+  line-height: 52px;
+  float: left;
+}

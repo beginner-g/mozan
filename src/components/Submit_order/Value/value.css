@@ -1,0 +1,57 @@
+.value{
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.value p{
+  border-bottom: 2px solid #000;;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.value span{
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  line-height: 51px;
+}
+.sanjiao{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  padding-left: 10px;
+  color: #000;
+}
+.value input{
+  float: left;
+  width: 255px;
+  line-height: 46px;
+}
+.value input:nth-child(2){
+  margin-right: 10px;
+  margin-left: 344px;
+}
+.value a{
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin-left: 6px;
+  width: 92px;
+  line-height: 46px;
+  color: #000;
+  background-color: #fdd900;
+  text-align: center;
+}
+.value .img{
+  margin-top: 20px;
+  overflow: hidden;
+}
+.img img{
+  margin-right: 25px;
+  margin-bottom: 25px;
+  float: left;
+}
+.img img:nth-child(3),.img img:nth-child(6){
+  margin-right: 0;
+}

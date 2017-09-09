@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './submit_order.css'
 import Address from './Address/Address'
+import Goods from './Goods/Goods'
+import Serve from './Serve/Serve'
+import Value from './Value/Value'
+import Remark from './Remark/Remark'
 class Submit_order extends Component{
   render(){
     return(
@@ -16,6 +20,10 @@ class Submit_order extends Component{
             </div>
         </div>
         <Address/>
+        <Goods/>
+        <Serve/>
+        <Value/>
+        <Remark/>
       </div>
     )
   }

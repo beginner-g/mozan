@@ -1,0 +1,69 @@
+.remark{
+  width: 1100px;
+  margin: 0 auto;
+}
+.beizhu span{
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #000;
+  border-bottom: 2px solid #000;
+  display: block;
+}
+.beizhu textarea{
+  resize: none;
+  width: 1094px;
+  height: 108px;
+}
+.number{
+  margin-top: 50px;
+  overflow: hidden;
+}
+.number1{
+  list-style: none;
+  border-bottom: 2px solid #000;
+  padding-bottom: 9px;
+  overflow: hidden;
+  padding-left: 0;  
+}
+.number1 li{
+  float: left;
+  margin-right: 173px;
+  font-size: 14px;
+  color: #000;
+}
+.number1 li:nth-child(6){
+  margin-right: 37px;
+}
+.number2{
+  margin-top: 12px;
+  margin-left: 8px;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+}
+.number2 li{
+  float: left;
+  font-size: 14px;
+  color: #000;
+  margin-right: 72px;
+  line-height: 26px;
+}
+.number2 li:nth-child(11){
+  margin-right: 0;
+  font-size: 26px;
+  color: #ed0003;
+}
+.number .submit{
+  margin-top: 50px;
+  display: block;
+  float: right;
+  width: 220px;
+  line-height: 60px;
+  font-size: 26px;
+  color: #000;
+  background-color: #fdd900;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 110px;
+}
