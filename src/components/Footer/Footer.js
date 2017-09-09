@@ -41,7 +41,7 @@ class Footer extends Component{
               <h3>客服热线</h3>
             <div className="people1">
               <p>
-                  <i className="iconfont phone">&#xe6b9;</i>
+                  <i className="iconfont phone1">&#xe6b9;</i>
                   <span>400 113 5353 <br />[周一至周五 9:00-18:00]</span>
                 </p>
             </div>

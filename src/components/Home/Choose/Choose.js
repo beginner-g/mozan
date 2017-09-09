@@ -46,10 +46,10 @@ class Choose extends Component{
   }
   render(){
     const style =this.state.styles.map((item,i)=>(
-      <a className={this.state.stylesIndex===i&&'active'}key={i} onClick={()=>this.handleClick(i)}>{item.style}</a>
+      <a className={this.state.stylesIndex===i&&'active2'}key={i} onClick={()=>this.handleClick(i)}>{item.style}</a>
     ))
     const size =this.state.sizes.map((item,i)=>(
-      <a className={this.state.sizesIndex===i&&'active'} key={i} onClick={()=>this.handleClick1(i)}>{item.size}</a>
+      <a className={this.state.sizesIndex===i&&'active2'} key={i} onClick={()=>this.handleClick1(i)}>{item.size}</a>
     ))
     return(
       <div className="choose">

@@ -7,18 +7,20 @@ import Bomb_box from '../Bomb_box/Bomb_box'
 import Wechat_pay from '../Wechat_pay/Wechat_pay'
 import Pay_success from '../Pay_success/Pay_success'
 import Submit_order from '../Submit_order/Submit_order'
+
 class Section extends Component{
   render(){
     return(
       <div>
-        {/* <Home/> */}
+        <Home/>
         {/* <Join_cart/> */}
         {/* <Shop/> */}
         {/* <Cashier_desk/> */}
         {/* <Bomb_box/> */}
         {/* <Wechat_pay/> */}
         {/* <Pay_success/> */}
-        <Submit_order/>
+        {/* <Submit_order/> */}
+
       </div>
     )
   }
