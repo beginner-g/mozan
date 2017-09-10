@@ -4,7 +4,7 @@ import Pay_for from '../Pay_for/Pay_for'
 class Pay extends Component{
   render(){
     return(
-      <div className="pay">
+      <div className="pays">
         <div className="down_con1">
           <p>
             <span>订单提交成功,请您尽快付款！</span><br />

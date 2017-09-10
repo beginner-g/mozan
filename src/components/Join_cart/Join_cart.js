@@ -3,7 +3,26 @@ import './join_cart.css';
 import shop from '../../images/shop_07.jpg'
 import goods from '../../images/88_03.jpg'
 class Join_cart extends Component {
+  state={
+    pices:[
+      {pic:goods},
+      {pic:goods},
+      {pic:goods},
+      {pic:goods},
+      {pic:goods}
+    ]
+  }
   render() {
+    const images=this.state.pices.map((item,i)=>(
+      <div key={i}>
+          <img src={item.pic} alt="" />
+        <p>
+          <strong>龙之谷六周年限定礼包<br />大Boss冰龙款男士T恤</strong>
+        <span>￥<b>88.00</b></span>
+      <a href="javascript:;" className="shop"><i className="iconfont">&#xe7a8;</i></a>
+          </p>
+      </div>
+    ))
     return (
       <div className="main">
         <div className="main_co">
@@ -24,46 +43,7 @@ class Join_cart extends Component {
                 <div></div>
             </div>
             <div className="shop">
-                <div>
-                    <img src={goods} alt="" />
-                  <p>
-                    <strong>龙之谷六周年限定礼包<br />大Boss冰龙款男士T恤</strong>
-                  <span>￥<b className="pic">88.00</b></span>
-                <a href="javascript:;" className="shop"><i className="iconfont">&#xe7a8;</i></a>
-                    </p>
-                </div>
-                <div>
-                    <img src={goods} alt="" />
-                  <p>
-                    <strong>龙之谷六周年限定礼包<br />大Boss冰龙款男士T恤</strong>
-                  <span>￥<b className="pic">88.00</b></span>
-                <a href="javascript:;" className="shop"><i className="iconfont">&#xe7a8;</i></a>
-                    </p>
-                </div>
-                <div>
-                    <img src={goods} alt="" />
-                  <p>
-                    <strong>龙之谷六周年限定礼包<br />大Boss冰龙款男士T恤</strong>
-                  <span>￥<b className="pic">88.00</b></span>
-                <a href="javascript:;" className="shop"><i className="iconfont">&#xe7a8;</i></a>
-                    </p>
-                </div>
-                <div>
-                    <img src={goods} alt="" />
-                  <p>
-                    <strong>龙之谷六周年限定礼包<br />大Boss冰龙款男士T恤</strong>
-                  <span>￥<b className="pic">88.00</b></span>
-                <a href="javascript:;" className="shop"><i className="iconfont">&#xe7a8;</i></a>
-                    </p>
-                </div>
-                <div>
-                    <img src={goods} alt="" />
-                  <p>
-                    <strong>龙之谷六周年限定礼包<br />大Boss冰龙款男士T恤</strong>
-                  <span>￥<b className="pic">88.00</b></span>
-                <a href="javascript:;" className="shop"><i className="iconfont">&#xe7a8;</i></a>
-                    </p>
-                </div>
+                {images}
             </div>
         </div>
       </div>

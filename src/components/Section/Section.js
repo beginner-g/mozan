@@ -12,8 +12,8 @@ class Section extends Component{
   render(){
     return(
       <div>
-        <Home/>
-        {/* <Join_cart/> */}
+        {/* <Home/> */}
+        <Join_cart/>
         {/* <Shop/> */}
         {/* <Cashier_desk/> */}
         {/* <Bomb_box/> */}

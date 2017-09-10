@@ -30,7 +30,7 @@ class Footer extends Component{
                   <img src={erweima} alt="" /><br />
                   <img src={taobao} alt="" />
                 </p>
-                <p className='weixin'>
+                <p className='weixin1'>
                   <img src={erweima} alt="" /><br />
                   <img src={weixin} alt="" />
                 </p>
