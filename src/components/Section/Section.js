@@ -13,9 +13,9 @@ class Section extends Component{
     return(
       <div>
         {/* <Home/> */}
-        <Join_cart/>
+        {/* <Join_cart/> */}
         {/* <Shop/> */}
-        {/* <Cashier_desk/> */}
+        <Cashier_desk/>
         {/* <Bomb_box/> */}
         {/* <Wechat_pay/> */}
         {/* <Pay_success/> */}
